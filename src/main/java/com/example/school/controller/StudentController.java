@@ -21,7 +21,7 @@ public class StudentController {
         return studentService.getStudentById(studentId);
     }
 
-    @PostMapping("/students/")
+    @PostMapping("/students")
 
     public Student addStudent(@RequestBody Student student) {
         return studentService.addStudent(student);
